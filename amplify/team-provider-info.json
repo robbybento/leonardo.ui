@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-leonardo-dev-111436-authRole",
+      "UnauthRoleArn": "arn:aws:iam::067162169709:role/amplify-leonardo-dev-111436-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::067162169709:role/amplify-leonardo-dev-111436-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-leonardo-dev-111436-deployment",
+      "UnauthRoleName": "amplify-leonardo-dev-111436-unauthRole",
+      "StackName": "amplify-leonardo-dev-111436",
+      "StackId": "arn:aws:cloudformation:us-west-2:067162169709:stack/amplify-leonardo-dev-111436/99074e80-a771-11ee-bb92-0a83954fe8dd",
+      "AmplifyAppId": "d3ps8zkj6uuq0y"
+    },
+    "categories": {
+      "auth": {
+        "leonardo3056452c3056452c": {},
+        "leonardo": {}
+      },
+      "function": {
+        "leonardo3cae42aa": {
+          "deploymentBucketName": "amplify-leonardo-dev-111436-deployment",
+          "s3Key": "amplify-builds/leonardo3cae42aa-4e4574432b506833776b-build.zip"
+        }
+      }
+    }
+  }
+}

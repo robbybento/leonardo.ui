@@ -1,0 +1,57 @@
+{
+  "api": {},
+  "auth": {
+    "leonardo": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL",
+          "NAME",
+          "NICKNAME"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "leonardo3cae42aa": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_leonardo3cae42aa_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "leonardo3cae42aa"
+        }
+      ]
+    },
+    "AMPLIFY_function_leonardo3cae42aa_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "leonardo3cae42aa"
+        }
+      ]
+    }
+  }
+}
